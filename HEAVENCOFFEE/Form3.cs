@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace HEAVENCOFFEE
 {
-    public partial class TELA_LOGIN : Form
+    public partial class Form3 : Form
     {
-        public TELA_LOGIN()
+        public Form3()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-
         }
     }
 }

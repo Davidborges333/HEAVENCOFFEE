@@ -31,5 +31,24 @@ namespace HEAVENCOFFEE
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form2 tela3 = new Form2();
+            tela3.ShowDialog();
+            this.Visible = true;
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            this.Visible = false;
+            Form3 tela3 = new Form3();
+            tela3.ShowDialog();
+            this.Visible = true;
+
+        }
     }
 }

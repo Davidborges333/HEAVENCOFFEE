@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,17 +11,29 @@ using System.Windows.Forms;
 
 namespace HEAVENCOFFEE
 {
-    public partial class TELA_LOGIN : Form
+    public partial class Form2 : Form
     {
-        public TELA_LOGIN()
+        public object TxtUsuario { get; private set; }
+
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+ 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
 
         }
     }
 }
+
