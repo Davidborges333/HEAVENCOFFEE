@@ -63,6 +63,26 @@ namespace HEAVENCOFFEE.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agora_o_cardapio_ta_certo {
+            get {
+                object obj = ResourceManager.GetObject("agora o cardapio ta certo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cardápio_hehe {
+            get {
+                object obj = ResourceManager.GetObject("cardápio hehe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CLIQUE {
             get {
                 object obj = ResourceManager.GetObject("CLIQUE", resourceCulture);
@@ -173,6 +193,26 @@ namespace HEAVENCOFFEE.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__5_ {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__5_1 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (5)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IMAGEM_CADASTRO_NOVO_SS {
             get {
                 object obj = ResourceManager.GetObject("IMAGEM CADASTRO NOVO SS", resourceCulture);
@@ -186,6 +226,46 @@ namespace HEAVENCOFFEE.Properties {
         internal static System.Drawing.Bitmap IMAGEM_LOGIN_NOVO_SS {
             get {
                 object obj = ResourceManager.GetObject("IMAGEM LOGIN NOVO SS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela_1 {
+            get {
+                object obj = ResourceManager.GetObject("tela 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela_2 {
+            get {
+                object obj = ResourceManager.GetObject("tela 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela_21 {
+            get {
+                object obj = ResourceManager.GetObject("tela 21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela_3 {
+            get {
+                object obj = ResourceManager.GetObject("tela 3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

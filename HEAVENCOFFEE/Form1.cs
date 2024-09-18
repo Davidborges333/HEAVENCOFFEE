@@ -29,7 +29,10 @@ namespace HEAVENCOFFEE
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            this.Visible = false;
+            Form5 tela3 = new Form5();
+            tela3.ShowDialog();
+            this.Visible = true;
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -49,6 +52,22 @@ namespace HEAVENCOFFEE
             tela3.ShowDialog();
             this.Visible = true;
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Visible = false;
+            Form4 tela3 = new Form4();
+            tela3.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Visible = false;
+            Form6 tela3 = new Form6();
+            tela3.ShowDialog();
+            this.Visible = true;
         }
     }
 }
