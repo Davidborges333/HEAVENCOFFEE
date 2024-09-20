@@ -73,6 +73,16 @@ namespace HEAVENCOFFEE.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agora_o_cardapio_ta_certo1 {
+            get {
+                object obj = ResourceManager.GetObject("agora o cardapio ta certo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cardápio_hehe {
             get {
                 object obj = ResourceManager.GetObject("cardápio hehe", resourceCulture);
@@ -116,6 +126,16 @@ namespace HEAVENCOFFEE.Properties {
         internal static System.Drawing.Bitmap CLIQUE2 {
             get {
                 object obj = ResourceManager.GetObject("CLIQUE2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap comidas_cardapio {
+            get {
+                object obj = ResourceManager.GetObject("comidas cardapio", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

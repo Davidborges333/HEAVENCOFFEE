@@ -1,6 +1,6 @@
 ﻿namespace HEAVENCOFFEE
 {
-    partial class Form7
+    partial class Form8
     {
         /// <summary>
         /// Required designer variable.
@@ -28,38 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(704, 325);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(71, 24);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "PROXIMO";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // Form7
+            // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::HEAVENCOFFEE.Properties.Resources.agora_o_cardapio_ta_certo;
+            this.BackgroundImage = global::HEAVENCOFFEE.Properties.Resources.comidas_cardapio;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(787, 419);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(788, 425);
             this.DoubleBuffered = true;
-            this.Name = "Form7";
-            this.Text = "Form7";
-            this.Load += new System.EventHandler(this.Form7_Load);
+            this.Name = "Form8";
+            this.Text = "Form8";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
     }
 }
