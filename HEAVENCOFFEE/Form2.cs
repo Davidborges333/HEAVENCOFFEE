@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
@@ -13,34 +14,25 @@ namespace HEAVENCOFFEE
 {
     public partial class Form2 : Form
     {
-        public object TxtUsuario { get; private set; }
+        private object lblError;
+        private object txtEmail;
+        private object txtPassword;
 
+       
         public Form2()
         {
             InitializeComponent();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-          
-        }
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
             this.Visible = false;
-            Form7 tela3 = new Form7();
+            Form9 tela3 = new Form9();
             tela3.ShowDialog();
             this.Visible = true;
         }
     }
-}
+    }
+
+
 

@@ -1,6 +1,6 @@
 ﻿namespace HEAVENCOFFEE
 {
-    partial class Form8
+    partial class Form10
     {
         /// <summary>
         /// Required designer variable.
@@ -28,37 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(711, 338);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "PROXIMO";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // Form8
+            // Form10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::HEAVENCOFFEE.Properties.Resources.agr_sim_hehehehehehhe;
+            this.BackgroundImage = global::HEAVENCOFFEE.Properties.Resources.bebidas_atualizadas_heaven_coffee;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(788, 425);
-            this.Controls.Add(this.button1);
-            this.DoubleBuffered = true;
-            this.Name = "Form8";
-            this.Text = "Form8";
-            this.Load += new System.EventHandler(this.Form8_Load);
+            this.ClientSize = new System.Drawing.Size(766, 384);
+            this.Name = "Form10";
+            this.Text = "Form10";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
     }
 }

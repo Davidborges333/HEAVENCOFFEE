@@ -63,6 +63,16 @@ namespace HEAVENCOFFEE.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agora_cardapio_opção {
+            get {
+                object obj = ResourceManager.GetObject("agora cardapio opção", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap agora_o_cardapio_ta_certo {
             get {
                 object obj = ResourceManager.GetObject("agora o cardapio ta certo", resourceCulture);
@@ -83,9 +93,49 @@ namespace HEAVENCOFFEE.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agr_sim_hehehehehehhe {
+            get {
+                object obj = ResourceManager.GetObject("agr sim hehehehehehhe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bebidas_atualizadas_heaven_coffee {
+            get {
+                object obj = ResourceManager.GetObject("bebidas atualizadas heaven coffee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cardápio_hehe {
             get {
                 object obj = ResourceManager.GetObject("cardápio hehe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Classy_Fashion_Style_Presentation {
+            get {
+                object obj = ResourceManager.GetObject("Classy Fashion Style Presentation", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Classy_Fashion_Style_Presentation__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Classy Fashion Style Presentation (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,6 +296,16 @@ namespace HEAVENCOFFEE.Properties {
         internal static System.Drawing.Bitmap IMAGEM_LOGIN_NOVO_SS {
             get {
                 object obj = ResourceManager.GetObject("IMAGEM LOGIN NOVO SS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap opçoes {
+            get {
+                object obj = ResourceManager.GetObject("opçoes", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -25,7 +25,7 @@ namespace HEAVENCOFFEE
         private void button1_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Form8 tela3 = new Form8();
+            Form10 tela3 = new Form10();
             tela3.ShowDialog();
             this.Visible = true;
         }

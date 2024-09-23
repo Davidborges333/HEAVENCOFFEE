@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace HEAVENCOFFEE
 {
-    public partial class Form3 : Form
+    public partial class Form10 : Form
     {
-        public Form3()
+        public Form10()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Visible = false;
-            Form7 tela3 = new Form7();
-            tela3.ShowDialog();
-            this.Visible = true;
         }
     }
 }
