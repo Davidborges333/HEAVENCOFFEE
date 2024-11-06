@@ -30,7 +30,7 @@ namespace HEAVENCOFFEE
         private void button2_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            Form8 tela3 = new Form8();
+            Form11 tela3 = new Form11();
             tela3.ShowDialog();
             this.Visible = true;
         }
@@ -39,6 +39,14 @@ namespace HEAVENCOFFEE
         {
             this.Visible = false;
             Form12 tela3 = new Form12();
+            tela3.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Form13 tela3 = new Form13();
             tela3.ShowDialog();
             this.Visible = true;
         }

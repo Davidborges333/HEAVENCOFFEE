@@ -143,6 +143,16 @@ namespace HEAVENCOFFEE.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Classy_Fashion_Style_Presentation__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Classy Fashion Style Presentation (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CLIQUE {
             get {
                 object obj = ResourceManager.GetObject("CLIQUE", resourceCulture);

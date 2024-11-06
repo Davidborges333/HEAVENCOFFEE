@@ -30,6 +30,13 @@ namespace HEAVENCOFFEE
             Form9 tela3 = new Form9();
             tela3.ShowDialog();
             this.Visible = true;
+
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+       
         }
     }
     }
